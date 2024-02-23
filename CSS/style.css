@@ -1,0 +1,109 @@
+body{
+    background:rgb(127, 208, 255);
+    padding: 50px;
+}
+
+#logo{
+    width: 200px;
+    border: 100px;
+    transition: 1s;
+}
+
+#logo:hover{
+    transform: rotate(360deg) scale(2,2);
+}
+
+#btn{
+    display: block;
+    padding: 12px 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px 3px #999;
+    max-width: 220px;
+    margin: 20px auto;
+    text-decoration: none;
+    transition: .5s;
+}
+
+#btn:hover{
+    transform:  scale(0.8);
+    background: #000;
+    color: #fff;
+}
+h1{
+    color: #000;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+p{
+    text-align: justify;
+    color: #000;
+}
+
+h2{
+    text-align: left;
+    color: #fff;
+}
+
+ol{
+   text-align: left; 
+}
+
+table{
+    width: 100%;
+    margin: 40px;
+}
+
+tr,td{
+    border: 2px solid antiquewhite
+}
+
+td{
+    padding: 20px;
+}
+
+.cabecera{
+    background-color: beige;
+}
+form{
+    width: 600px;
+    margin: 50px ;
+    background: rgb(101, 198, 255);
+    padding: 30px;
+    text-align: left; 
+}
+
+label{
+    display: block;
+}
+
+input{
+    display: block;
+    margin-bottom: 26px;
+    padding: 5px 15px;
+    width: 85px;
+}
+
+button{
+    width: 100px;
+    padding: 16px;
+    border-radius: 20px;
+    background: #000;
+    color: antiquewhite;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+button.hover{
+    background: antiquewhite;
+    color: #000;
+    border-radius: 0;
+}
+
+iframe{
+    margin: 40px 0;
+}
+
+
